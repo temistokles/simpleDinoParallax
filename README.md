@@ -1,10 +1,13 @@
 # Simple Dino Parallax
 
 Simple and light-weight **parallax** with support of vertical and horizontal scrolling, transparency and rotation.
+
 Depends on jQuery.
 
+
+
 Plugin was inspired by lack of support for various type of parallax/scroll-based plugins available.
-It is minimalistic just to fulfill the needs of http:///www.simpledino.com/. Feel free to contribute.
+It is minimalistic just to fulfill the needs of www.simpledino.com. Feel free to contribute.
 
 
 ## Install and usage
