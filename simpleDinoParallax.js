@@ -13,8 +13,8 @@
         $(el).data('parallax-original-offset-top', position.top);
         $(el).data('parallax-original-offset-left', position.left);
 
-        if ($(el).data('parallax-min-opacity')) {
-            $(el).fadeTo(0, $(el).data('parallax-min-opacity'));
+        if ($(el).data('parallax-starting-opacity')) {
+            $(el).fadeTo(0, $(el).data('parallax-starting-opacity'));
         }
     }
     
@@ -50,7 +50,7 @@
         if ($(el).hasClass('parallax-transparency')) {
             var minOpacity = $(el).data('parallax-min-opacity');
             var speed = $(el).data('parallax-transparency-speed') ? $(el).data('parallax-transparency-speed') : $(el).data('parallax-speed'); 
-            var opacity = scrollAmount * speed;
+            var opacity = $(el).data('parallax-starting-opacity') + scrollAmount * speed;
             if (opacity < minOpacity) {
                 opacity = minOpacity;
             }           

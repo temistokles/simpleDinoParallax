@@ -39,3 +39,9 @@ To specify speed of the effect use the following HTML5 data-* attributes.
 | data-parallax-transparency-speed | Speed of transparency parallax effect.                                                         |  
 | data-parallax-rotate-speed       | Speed of parallax rotation effect.                                                             |
    
+Transparency
+
+| Attribute                      | Meaning                                                                         |
+| ------------------------------ | ------------------------------------- ----------------------------------------- |
+| data-parallax-min-opacity      | Minimal opacity of the element (it will not be set to lower value by parallax). |  
+| data-parallax-starting-opacity | Opacity of the element to start the parallax effect with.                       |  
